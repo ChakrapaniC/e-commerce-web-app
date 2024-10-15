@@ -4,15 +4,15 @@ const JobPosting = () => {
     const jobData = {
         "@context": "https://schema.org/",
         "@type": "JobPosting",
-        "title": "Software Engineer",
+        "title": "Mern Developer",
         "description": "We are looking for a Software Engineer to join our team.",
-        "datePosted": "2024-10-10",
-        "validThrough": "2024-12-10",
+        "datePosted": "2024-10-15",
+        "validThrough": "2024-10-25",
         "employmentType": "FULL_TIME",
         "hiringOrganization": {
             "@type": "Organization",
-            "name": "TechCorp",
-            "sameAs": "https://www.techcorp.com"
+            "name": "TechHire",
+            "sameAs": "https://www.techire.com"
         },
         "jobLocation": {
             "@type": "Place",
